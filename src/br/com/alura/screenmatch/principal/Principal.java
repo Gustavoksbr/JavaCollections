@@ -1,12 +1,13 @@
-import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
-import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
+package br.com.alura.screenmatch.principal;
+
 import br.com.alura.screenmatch.modelos.*;
-import br.com.alura.screenmatch.Desafio1.Pessoa;
 
 import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
+
+// Curso anterior
 //        Filme meuFilme = new Filme();
 //        meuFilme.setNome("O poderoso chefão");
 //        meuFilme.setAnoDeLancamento(1970);
@@ -51,7 +52,8 @@ public class Principal {
 //        episodio.setSerie(lost);
 //        episodio.setTotalVisualizacoes(300);
 //        filtro.filtra(episodio);
-//
+
+// curso atual
         Filme filme1 = new Filme();
         filme1.setNome("Madagascar");
         Filme filme2 = new Filme();
@@ -80,5 +82,9 @@ public class Principal {
 //        System.out.println("Tamanho da lista:\t"+ListaDePessoas.size());
 //        System.out.println("A primeira pessoa é:\n"+Alfredo.toString());
 //        System.out.println("Todas as pessoas são:\n"+ListaDePessoas.toString());
+// Desafio 2
+//        var mandioca = new ProdutoPerecivel("mandioca",18,5,"23/04/2025");
+//        System.out.println(mandioca.toString());
+
     }
 }
